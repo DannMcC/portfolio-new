@@ -36,7 +36,24 @@ class App extends Component {
         </div>
       </header>
       <main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div className='blog'>
+          <article>
+            {/* <header style='background-image: url(./dan.png);' /> */}
+            <div>
+              <h3>Bee Movie</h3>
+              <p>According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don’t care what humans think is impossible.</p>
+              <a className='more' href='#'>Read More</a>
+            </div>
+          </article>
+          <article>
+            {/* <header style="background-image: url('https://tctechcrunch2011.files.wordpress.com/2015/04/codecode.jpg?w=738')" /> */}
+            <div>
+              <h3>blog</h3>
+              <p>Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let’s shake it up a little. Barry! Breakfast is ready! Ooming! Hang on a second. Hello? - Barry? - Adam? - Oan you believe this is happening? - I can’t.</p>
+              <a className='more' href='#'>Read More!!</a>
+            </div>
+          </article>
+        </div>
       </main>
     </div>
   }
